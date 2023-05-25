@@ -1,3 +1,4 @@
+num_terms = int(input())
 def fibonacci(n):
     x = [0, 1] 
 
@@ -12,7 +13,6 @@ def fibonacci(n):
         x.append(next_num)
     return x
     
-num_terms = 10  
+
 fibonacci_sequence = fibonacci(num_terms)
 print(fibonacci_sequence)
-
