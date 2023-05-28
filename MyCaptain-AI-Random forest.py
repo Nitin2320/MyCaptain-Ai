@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
 
 # importing dependencies
 import numpy as np
@@ -97,10 +92,10 @@ len(pred)
 
 
 #accuracy value
-9703/10000
+accuracy=count/len(pred)
 
 
-# In[ ]:
+
 
 
 
